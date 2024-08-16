@@ -52,7 +52,7 @@ app.post("/register", async (req, res) => {
         res.status(500).send("Error registering user");
     }
 });
-
+ //makign a comment 
 app.listen(port, () => {
     console.log("Server is running on port", port);
 });
